@@ -142,38 +142,5 @@ namespace WindowsFormsApp2
             }
             else this.textShow.Text += text;
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonSend_Click(object sender, EventArgs e)
-        {
-            if (P.IsOpen)
-            {
-                if (textSend.Text == "")
-                {
-                    MessageBox.Show("Người dùng chưa nhập dữ liệu.", "Thông báo");
-                }
-                else
-                {
-                    P.Write(textSend.Text);
-                }
-            }
-            else
-            {
-                MessageBox.Show("COM chưa mở.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-        //Ham nay se duoc goi khi mo chuong trinh
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //comboBox1.SelectedIndex = 0; //Chọn COM được tìm thấy đầu tiên
-            comboBox2.SelectedIndex = 3; //9600
-            comboBox3.SelectedIndex = 2; //8
-            comboBox4.SelectedIndex = 0; //None
-            comboBox5.SelectedIndex = 0; //None
-        }
     }
 }
