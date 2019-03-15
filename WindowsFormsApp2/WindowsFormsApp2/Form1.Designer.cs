@@ -40,6 +40,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textSend = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,17 +161,27 @@
             this.panel1.Size = new System.Drawing.Size(467, 223);
             this.panel1.TabIndex = 12;
             // 
+            // textSend
+            // 
+            this.textSend.Location = new System.Drawing.Point(556, 276);
+            this.textSend.Multiline = true;
+            this.textSend.Name = "textSend";
+            this.textSend.Size = new System.Drawing.Size(318, 20);
+            this.textSend.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(889, 531);
+            this.Controls.Add(this.textSend);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -188,6 +199,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textSend;
     }
 }
 
