@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
             comboBox1.Items.AddRange(ports); //Su dung addrange thay cho foreach
             P.ReadTimeout = 1000;
 
-            SerialDataReceivedEventHandler DataReceive = null;
+            //SerialDataReceivedEventHandler DataReceive = null;
             P.DataReceived += new SerialDataReceivedEventHandler(DataReceive);
 
             //Cai dat cho Baud Rate
@@ -119,6 +119,28 @@ namespace WindowsFormsApp2
                     P.StopBits = StopBits.Two;
                     break;
             }
+        }
+        /*
+         * Xây dựng các hàm thủ tục cho viec truyen va nhan du lieu
+        */
+        //Ham nay duoc su kien nhan du lieu goi toi, muc dich: hien thi du lieu
+        private void DataReceive(object obj, SerialDataReceivedEventArgs e)
+        {
+            InputData = P.ReadExisting();
+            if (InputData != String.Empty)
+            {
+                //Phai uy quyen tai day, goi delegate da khai bao truoc do
+                SetText(InputData);
+            }
+        }
+        private void SetText(string text)
+        {
+            if (this.textShow.InvokeRequired)
+            {
+                SetTextCallback d = new SetTextCallback(SetText); // khởi tạo1 delegate mới gọi đến SetText
+                this.Invoke(d, new object[] { text });
+            }
+            else this.textShow.Text += text;
         }
     }
 }
