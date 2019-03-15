@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textShow = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,13 +43,13 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textShow
             // 
-            this.textBox1.Location = new System.Drawing.Point(146, 13);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 157);
-            this.textBox1.TabIndex = 0;
+            this.textShow.Location = new System.Drawing.Point(146, 13);
+            this.textShow.Multiline = true;
+            this.textShow.Name = "textShow";
+            this.textShow.Size = new System.Drawing.Size(318, 157);
+            this.textShow.TabIndex = 0;
             // 
             // label2
             // 
@@ -146,7 +146,7 @@
             // 
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textShow);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.comboBox4);
             this.panel1.Controls.Add(this.comboBox3);
@@ -176,7 +176,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textShow;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label5;

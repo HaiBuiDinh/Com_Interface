@@ -8,3 +8,10 @@ C:\Users\buidi\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsF
 C:\Users\buidi\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 C:\Users\buidi\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\buidi\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
