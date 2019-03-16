@@ -174,6 +174,48 @@ namespace WindowsFormsApp2
             comboBox3.SelectedIndex = 2; //8
             comboBox4.SelectedIndex = 0; //None
             comboBox5.SelectedIndex = 0; //None
+            status.Text = "Chọn một cổng để kể nối";
+        }
+
+        private void bttConnect_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                P.Open();
+                bttDisconnect.Enabled = true;
+                bttConnect.Enabled = false;
+                //Hien thi trang thai
+                status.Text = "Đang kết nối với cổng " + comboBox1.SelectedItem.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Không kết nối được", "Thử lại", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void bttDisconnect_Click(object sender, EventArgs e)
+        {
+            P.Close();
+            bttConnect.Enabled = true;
+            bttDisconnect.Enabled = false;
+            //Hien thi status
+            status.Text = "Đã ngắt kết nối";
+        }
+
+        private void bttExit_Click(object sender, EventArgs e)
+        {
+            DialogResult kq = MessageBox.Show("Bạn thực sự muôn thoát", "BTL Nhom 16", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (kq == DialogResult.Yes)
+            {
+                MessageBox.Show("Cảm ơn bạn đã sử dụng chương trình", "BTL Nhom 16");
+                this.Close();
+            }
+        }
+
+        private void bttDelete_Click(object sender, EventArgs e)
+        {
+            textShow.Text = "";
+            textSend.Text = "";
         }
     }
 }

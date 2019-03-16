@@ -15,3 +15,6 @@ C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\Windows
 C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
