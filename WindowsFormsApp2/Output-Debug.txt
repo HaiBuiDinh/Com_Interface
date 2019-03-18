@@ -1,0 +1,11 @@
+﻿'WindowsFormsApp2.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Users\buidi\OneDrive\Desktop\20182\DoluongTudong\COM_C#\Com_Interface\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe'. Symbols loaded.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'WindowsFormsApp2.exe' (CLR v4.0.30319: WindowsFormsApp2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x30e0 has exited with code 0 (0x0).
+The thread 0x27e8 has exited with code 0 (0x0).
+The program '[2028] WindowsFormsApp2.exe' has exited with code 0 (0x0).
